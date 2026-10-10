@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">NotCaD</string>
+    <string name="app_tagline">Intentional Friction &amp; Focus Vault</string>
+    <string name="accessibility_service_description">NotCaD uses this accessibility service exclusively to detect when protected apps are opened outside your scheduled focus session and to guide you safely back home or lock your screen when your designated usage timer expires.</string>
+    <string name="device_admin_description">Used solely to lock your device screen when your timer expires, enforcing your productivity commitment.</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Make Distraction Intentional</string>
+    <string name="onboarding_desc_1">Infinite feeds are engineered to steal hours without friction. NotCaD puts a secure vault between your impulses and addictive apps.</string>
+    <string name="onboarding_title_2">The 4-Step Focus Loop</string>
+    <string name="onboarding_desc_2">1. Authenticate with PIN\n2. Commit to a fixed timer (5-60m)\n3. Finish your task\n4. Automatic session termination &amp; screen lock</string>
+    <string name="onboarding_title_3">Zero Bypasses in Strict Mode</string>
+    <string name="onboarding_desc_3">Persistent timers survive restarts. When time is up, your session ends immediately so you can return to meaningful work.</string>
+
+    <!-- Permissions -->
+    <string name="perm_accessibility_title">Accessibility Service</string>
+    <string name="perm_accessibility_desc">Enables NotCaD to automatically return to the home screen or lock the device when your usage session expires.</string>
+    <string name="perm_usage_stats_title">Usage Access</string>
+    <string name="perm_usage_stats_desc">Allows NotCaD to track distraction time and monitor foreground app sessions accurately.</string>
+    <string name="perm_overlay_title">Display Over Other Apps</string>
+    <string name="perm_overlay_desc">Allows NotCaD to present the full-screen expiration alert when your timer ends.</string>
+    <string name="perm_notifications_title">Notifications</string>
+    <string name="perm_notifications_desc">Provides a persistent real-time countdown notification during active app sessions.</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_status_idle">Vault Armed &amp; Guarding</string>
+    <string name="dashboard_status_active">Session in Progress</string>
+    <string name="dashboard_strict_active">Strict Mode: Active</string>
+    <string name="start_session_cta">Open Focus Vault</string>
+    <string name="manage_apps_cta">Manage Distracting Apps</string>
+    
+    <!-- Session Finish -->
+    <string name="session_expired_title">Session Expired</string>
+    <string name="session_expired_message">Your session is over. Now put your phone away and get back to work.</string>
+    <string name="btn_back_to_work">OK, Back to Work</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "NotCaD",
+  "description": "Intentional friction focus vault and digital wellbeing app that locks distracting applications behind authentication and strict usage countdowns.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
